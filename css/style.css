@@ -1,0 +1,186 @@
+body{font-family: 'Open Sans', sans-serif;
+      font-size:100%;
+	  color:#062033;}
+section{
+	padding:70px 0;
+	text-align:center;}
+h2{background-image:url(../images/border.png);
+   background-repeat:no-repeat;
+   background-position:bottom center;
+   padding-bottom:20px;
+   color:#0eb493;
+   font-weight:800;
+   text-transform:uppercase;
+   margin-bottom:30px; /*отступ от заголовка*/
+   }
+  img{width:100%;
+      display:block;
+	  }
+ .description{
+	 font-weight:600;
+	 font-size:1.125em;
+	 margin-bottom:30px;}
+	 
+
+	 /*-------------------------header-----------------*/
+header{background-image:url(../images/header.png);
+		background-repeat:no-repeat;
+		background-size:cover;/*размер фона под размер блока*/
+		}
+nav{background-color:rgba(16,22,54,0.3)/*прозрачность в макете*/;}
+.nav>li>a{
+	color:#FFFFFF;
+	font-size:0.8125em;
+	}
+.nav > li{border-top:2px solid transparent;}/*синяя полоска над меню при наведении
+*/
+.nav > li:hover{border-top:2px solid #32b0ee;
+       }
+.nav > li > a:hover, .nav > li > a:focus{background-color:transparent;/*фокус при наведении отсутствует*/}
+.nav > li > a:hover{border-top:2px solid #32b0ee;}
+.navbar-toggle{border: 1px solid white;}
+.icon-bar{background-color:white;}
+.slogan{padding-top:400px;
+		padding-bottom:40px;
+		color:white;
+		text-align:center;}
+h1{font-weight:300;
+   font-size:3.875em;
+   text-align:center;}
+h1 span{
+	font-weight:700;}
+.slogan1{
+	font-weight:300;
+	font-size:3em;}
+.slogan1 span{
+	color:#0eb493;}
+.slogan2{
+	font-weight:300;
+	font-size:1.125em;
+	margin:20px 0;}
+.soc{
+	margin-top:180px;}
+.soc a{
+	text-decoration:none;
+	color:#4e545c;
+	font-size:24px;
+}
+.soc a:hover{
+	color:white;}
+	
+@media screen and (max-width:768px){
+.nav>li{border-top:0px solid transparent;
+        border-bottom:2px solid transparent;}
+.nav > li:hover{border-top:0px solid transparent;
+        border-bottom:2px solid #32b0ee;}
+		.slogan{
+			padding-top:100px;}
+	
+}
+	
+#Features{ background-color:#f4f7f9;}
+#Features .col-sm-4{ text-align:center;
+					background-repeat:no-repeat;
+					padding-left:60px;
+					}
+#F1{background-image:url(../images/f1.png);}
+#F2{background-image:url(../images/f2.png);}
+#F3{background-image:url(../images/f3.png);}
+#Features h3{ font-weight:700;
+              font-size:1.25em;
+			  margin-top:3px;
+			  }
+@media screen and (max-width:768px){
+#Features .col-sm-4{ background-position:top center;
+                     padding-left:0;
+                     padding-top:60px;
+					 text-align:center;
+					 margin-bottom:20px;
+					 }
+}
+/*work*/
+#Works{padding-bottom:0;}
+
+#Works .btn{ color:#062033;
+              font-weight:bold;
+			  font-size:0.875em;}
+#Works .btn:hover{ background-color:#0eb493;
+                   color:#fff;
+				   }
+.gallery{ margin-top:30px;
+          overflow:hidden;}
+.gal{ width:25%;
+      float:left;}
+
+@media screen and (min-width:1500px){
+	.gallery{width:1170px;
+	         margin:0 auto;
+	}}
+.team_item:hover .name{color:#0eb493;}	
+/*___________facts________*/
+#Facts	{background-image:url(../images/facts.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:bottom;
+		color:#fff;}
+#Facts h2{background-image:url(../images/facts-border.png);}
+#Facts span[class^="icon"]{font-size:25px;
+                            border:1px solid #fff;
+							padding:20px;
+							border-radius:50%;
+							display:inline-block;}
+
+#Facts p  span{display:block;
+font-size:3em;}
+/*______form_____*/
+.form-control{border-width:0 0 1px 0;
+              box-shadow:none;
+			  border-radius:0;
+			  padding:20px 0;
+			  font-size:0.8125em;
+}
+.form-control:focus{border:none;
+                    box-shadow:none;
+					border-width:0 0 1px 0;
+					border-bottom:1px solid #0eb493;
+}
+.btn-default{ border:none;
+}
+.btn-default:hover{background:none;
+                  border:none;}
+.btn-default:active{ border:none;}			  
+.btn:active	{box-shadow:none;
+             border:none;
+}			        
+				 
+.btn:active, .btn:focus {autline:none !important;
+                         background:none !important;
+                         border:none !important; }
+						 
+ #Discuss .btn-default span{color:#0eb493;
+                            margin-right:10px;}
+							/*__________icons___________*/
+#Icons span{ display:block;
+             font-size:24px;
+			 color:#cdd2d6;
+			 text-align:center;
+			 margin:10px 0;}
+						
+#Icons span:hover{color:#0eb493;}
+@media screen and (max-width:992px){
+				#Icons span{display:inline-block;
+				margin:10px;
+				}}	
+				
+#to-up a{ font-size:40px;
+          color:#0eb493;
+		  
+		  
+		  padding:5px;
+		  }
+#to-up {position:fixed;
+		bottom:20px;
+		opacity:0.5}
+#to-up:hover{opacity:1;}	
+							
+							
